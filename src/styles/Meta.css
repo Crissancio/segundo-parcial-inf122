@@ -1,0 +1,58 @@
+:root{
+    --black: #1B1C1F;
+    --true-white: #ffffff;
+    --white: #F6F7F9;
+    --gray: #767E8C;
+    --green: #1C9675;
+    --gray-light: #D9D9D9;
+    --red: #B2324A;
+    --lg: 40px;
+    --md: 20px;
+    --sm: 16px;
+}
+.meta-container{
+    display: flex;
+}
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: var(--white);
+    display: flex;
+    width: 687px;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-container p{
+    color: var(--gray);
+}
+
+.contenedor-botones{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.contenedor-botones button{
+    background-color: #ffffff00;
+    border: 0;
+}
+
+.text-meta{
+    color: var(--gray);
+    font-family: Overpass;
+    font-size: var(--md);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.task-complete{
+    color: var(--gray);
+    font-family: Overpass;
+    font-size: var(--md);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line:line-through;
+}
